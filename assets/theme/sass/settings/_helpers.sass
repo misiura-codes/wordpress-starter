@@ -1,0 +1,33 @@
+/* Responsive media */
+  
+=xs()
+  @media only screen and (max-width: 575px)
+    @content
+
+=sm()
+  @media only screen and (max-width: 767px)
+    @content
+
+=md()
+  @media only screen and (max-width: 991px)
+    @content
+
+=lg()
+  @media only screen and (max-width: 1199px)
+    @content
+
+=lg()
+  @media only screen and (max-width: 1199px)
+    @content
+
+=m-min($min)
+  @media only screen and (min-width: $min+ "px")
+    @content
+
+=m-max($max)
+  @media only screen and (max-width: $max+ "px")
+    @content
+
+=m-between($min, $max)
+  @media only screen and (min-width: $min+ "px") and (max-width: $max+ "px")
+    @content
