@@ -5,6 +5,7 @@ Before start
 * Don't forget to change data in **style.css**
 * In **webpack.mix.js** set **proxy** const to your virtial domain address;
 * Don't forget start your web server before ```npm run watch```;
+
 * Uncomment **WooCommerce** support in functions/setup - line 40 if needed
 
 What's included?
@@ -19,6 +20,7 @@ What's included?
 * **Bootstrap** (grid)
 * **SweetAlert 2 (CDN)** - modal\alert windows;
 * **WebFont.js (CDN)** - loading google fonts;
+
 * **RFS (Responsive Font size)** - auto scaling font-size for responsiveness;
 
 
@@ -29,13 +31,21 @@ A few advices
   - build - all compiled sass/js/images/fonts goes here
   - theme - use it for your source files
     - sass/settings folder will help you to setup params for your project
+
 * **SASS** - try to divide your blocks into components
 
 Commands
 ---------------
-```npm run watch``` - start virtual server with browsersync proxy & live reload
+* ```npm run watch``` - start virtual server with browsersync proxy & live reload
 
-```npm run production``` - build assets 
+* ```npm run production``` - build assets 
+
+Actions
+---------------
+* ```after_body_open``` - right after BODY tag open;
+
+* ```before_body_close``` - right before BODY tag close;
+
 
 Wordpress Recommended plugins
 ---------------
