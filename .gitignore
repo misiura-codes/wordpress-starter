@@ -82,5 +82,3 @@ node_modules/
 !README.md
 !CHANGELOG.md
 !composer.json
-!/assets/theme/images/*
-!/assets/theme/fonts/*
