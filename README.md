@@ -1,7 +1,7 @@
 Before start
 ---------------
 * Do mass change-replace " **theme_text_domain** " to your new theme text domain;
-* Run ```npm run i``` in your command line;
+* Run ```npm i``` in your command line;
 * Don't forget to change data in **style.css**
 * In **webpack.mix.js** set **proxy** const to your virtial domain address;
 * Don't forget start your web server before ```npm run watch```;
