@@ -1,6 +1,6 @@
 const mix = require('laravel-mix');
 // Variables
-const proxy = 'virtual.domain';
+const proxy = 'my.project.domain';
 
 // Settings
 mix
@@ -20,10 +20,8 @@ mix
 
 // Assets build and copying
 mix
-  .sass('assets/theme/sass/entry.sass', 'assets/build/css/bundle.css')
-  .js('assets/theme/js/main.js', 'assets/build/js/main.js')
-  .copy('assets/theme/images', 'assets/build/images')
-  .copy('assets/theme/fonts', 'assets/build/fonts')
+  .sass('assets/sass/entry.sass', 'assets/css/bundle.css')
+  .js('assets/js/main-source.js', 'assets/js/main-compiled.js')
   .sourceMaps(false, 'inline-source-map');
 
 mix.browserSync({
@@ -34,8 +32,9 @@ mix.browserSync({
   reloadOnRestart: true,
   files: [
     '**/*.php',
-    'assets/build/css/**/*.css',
-    'assets/build/js/**/*.js',
+    'assets/css/**/*.css',
+    'assets/js/**/*.js',
+    'assets/sass/**/*.sass',
   ],
   snippetOptions: {
     whitelist: ['/wp-admin/admin-ajax.php'],

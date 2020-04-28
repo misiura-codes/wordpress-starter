@@ -1,6 +1,5 @@
 jQuery(document).ready(function ($) {
 
-
   // Send Ajax form
   $(document).on('submit', '.ajax-form', function (event) {
     event.preventDefault();
