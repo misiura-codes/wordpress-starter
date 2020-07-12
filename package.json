@@ -17,18 +17,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.5.0",
     "cross-env": "^6.0.3",
     "laravel-mix": "^5.0.1",
-    "rfs": "^9.0.2"
+    "rfs": "^9.0.3"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "browser-sync-webpack-plugin": "^2.0.1",
+    "browser-sync-webpack-plugin": "^2.2.2",
     "postcss-custom-media": "^7.0.8",
-    "resolve-url-loader": "^3.1.0",
-    "sass": "^1.24.0",
-    "sass-loader": "^8.0.0",
+    "resolve-url-loader": "^3.1.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   }
 }
