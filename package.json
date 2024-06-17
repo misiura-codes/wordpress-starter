@@ -19,7 +19,7 @@
   "dependencies": {
     "bootstrap": "^4.5.0",
     "cross-env": "^6.0.3",
-    "laravel-mix": "^5.0.1",
+    "laravel-mix": "^6.0.49",
     "rfs": "^9.0.3"
   },
   "devDependencies": {
